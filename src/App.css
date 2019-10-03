@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
+  --primary-color: #069ebd;
   --dark-color: #333333;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -38,6 +38,10 @@ ul {
 
 img {
   width: 100%;
+}
+
+.fab.fa-github {
+  color: #ffdf00;
 }
 
 /* Utilities */
@@ -318,10 +322,10 @@ input {
   color: #888;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='password'],
-input[type='date'],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
 select,
 textarea {
   display: block;
@@ -331,7 +335,7 @@ textarea {
   border: 1px solid #ccc;
 }
 
-input[type='submit'],
+input[type="submit"],
 button {
   font: inherit;
 }
@@ -356,6 +360,13 @@ table th {
   width: 100%;
   opacity: 0.9;
   margin-bottom: 1rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(6, 158, 189, 1) 100%
+  );
 }
 
 .navbar ul {
@@ -369,7 +380,7 @@ table th {
 }
 
 .navbar a:hover {
-  color: var(--light-color);
+  color: #ffdf00;
 }
 
 .navbar .welcome span {
